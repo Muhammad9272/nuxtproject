@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  @font-face {
+    font-family: 'Calibre';
+    src: local('Calibre Semibold'), local('Calibre-Semibold'),
+    url('~assets/CalibreWeb-Bold.b4d2f37.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Calibre';
+    src: local('Calibre Bold'), local('Calibre-Bold'),
+    url('~assets/CalibreWeb-Bold.b4d2f37.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Calibre';
+    src: local('Calibre'), local('Calibre-Regular'),
+    url('~assets/CalibreWeb-Regular.a4d333e.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
